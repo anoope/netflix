@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: #fff;
+}
+.header{
+    height: 600px;
+    width: 1400px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/IN-en-20241202-TRIFECTA-perspective_052fb757-35ce-4655-946e-3c9ffac95fd0_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 0px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0%;
+    margin-left: 65px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header_content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600px;
+    max-width: 650px;
+}
+.header_content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#email{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    background-color: #000;
+    border: 3px solid white;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+#button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 20px;
+    border: 1px solid red;
+    color: white;
+    font-weight: bolder;
+}
+#btn1{
+    background-color: red;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+#btn2{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 80px;
+    font-weight: bolder;
+}
+.div1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+#btn3{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 900px;
+    font-family: "Poppins", sans-serif;
+
+}
+#btn4{
+    height: 50px;
+    width: 100px;
+    border-radius:10px;
+    border: 2px solid black;
+    font-family: "Poppins", sans-serif;
+}
+.div1 i{
+    margin-right: 10px;
+}
+.images{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.img{
+    margin-left: 70px;
+}
+.div2{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.more{
+    height: 150px;
+    width: 350px;
+    background-color: rgb(54, 54, 54);
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 120px;
+}
+#idi{
+    margin-top: 80px;
+    margin-left: 300px;
+}
+.maindiv{
+    display: flex;
+}
+.div3{
+    margin-top: 100px;
+    font-size: 30px;
+}
+#idi1{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.div4{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+#idi2{
+    margin-top: 80px;
+    margin-left: 300px;
+}
+#footer{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.footer1{
+    height: 80px;
+    width: 1200px;
+    background-color: rgb(54, 54, 54);
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.joinnow{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 700px;
+    border: 1px solid red;
+}
+#hai{
+    margin-top: 10px;
+    margin-left: 640px;
+}
+.firstfooter{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.p{
+    margin-top: 10px;
+}
+.firstfooter1{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.firstfooterdiv{
+    display: flex;
+}
+.netflixindia{
+    margin-top: 100px;
+    margin-left: 150px;
+}
